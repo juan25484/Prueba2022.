@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+
+body {
+    background: #F5F9FC 0% 0% no-repeat padding-box;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.container {
+    position: relative;
+    max-width: 1650px;
+    width: 90%;
+    border-radius: 6px;
+    padding: 100px;
+    margin: 0 15px;
+}
+
+
+
+
+header {
+    color: black;
+    padding: 25px;
+    font-size: 20px;
+}
+
+
+
+
+.container form .fields {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form .fields .input-field {
+    display: flex;
+    width: calc(100% / 3 - 15px);
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+
+
+.input-field input {
+    top: 182px;
+
+    left: 56px;
+    height: 45px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #AFAFAF;
+    border-radius: 8px;
+    opacity: 1;
+
+}
+
+.inputs-field,
+select {
+    top: 450px;
+    left: 941px;
+    width: 820px;
+    height: 48px;
+    border-radius: 8px;
+    opacity: 1;
+    margin: 5px 0px;
+
+
+
+}
+
+.inputs-field input {
+    top: 182px;
+    width: 800px;
+    height: 44px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #AFAFAF;
+    border-radius: 8px;
+    opacity: 1;
+    margin: 5px 0px;
+
+
+
+
+}
+
+.logo {
+    position: absolute;
+    width: 250px;
+    padding-left: 1185px;
+    margin-top: -40px;
+}
+
+
+
+.container form button,
+.backBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background: transparent linear-gradient(90deg, #29628D 0%, #1A4465 100%) 0% 0% no-repeat padding-box;
+    transition: all 0.3s linear;
+    cursor: pointer;
+
+    top: 500px;
+    left: 56px;
+    width: 1800px;
+    height: 56px;
+}
+
+
+
+
+.fa-solid,
+fa-square-plus {
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.fas,
+ fa-pencil-alt{
+    color: #29628D;
+    font-size: 20px;
+ }
+
+ 
+.fa-solid fa-trash{
+    color: #FF4269;
+}
+
+
+
+@media (max-width: 750px) {
+    .container form {
+        overflow-y: scroll;
+    }
+
+    .container form::-webkit-scrollbar {
+        display: none;
+    }
+
+    form .fields .input-field {
+        width: calc(100% / 2 - 15px);
+    }
+}
+
+@media (max-width: 550px) {
+    form .fields .input-field {
+        width: 100%;
+    }
+}
+
+
+.content-table {
+
+    overflow: hidden;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 15px;
+    position: absolute;
+    left: 100px;
+    margin: 20px 0px;
+    width: 1650px;
+    padding: 60px;
+}
+
+
+
+.content-table thead tr {
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th {
+    padding: 30px 50px 2px 25px;
+}
+
+
+.content-table td {
+    padding: 20px 30px 2px 25px;
+}
+
+
+
+
+tr:hover {
+    background-color: #FF4269;
+}
+
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #F5F9FC;
+}
