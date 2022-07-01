@@ -15,7 +15,6 @@ $result = mysqli_query($conexion, $sql);
 
 
 <!DOCTYPE html>
-<!--=== Coding by CodingLab | www.codinglabweb.com === -->
 <html lang="en">
 
 <head>
