@@ -6,8 +6,8 @@ Muy buenas Tardes mi nombre es juan jose vasquez
 
 Fallas : - Boton eliminar no funciona
          - El color de la caneca y del mas tienen la misma clase y si cambio el logo el programa no lo reconoce.
-         - El actualizar no me abre el cuadro de informacion sobre encima de index principal si no que me toco hacer una pagina externa para poder redireccionarlo.
-         - El actualizar solo funciona si en el actualizar esta el id como tipo input , para que no se viera lo puse tipo label pero si esta oculto no funciona.
+         - El eliminar no me abre 
+         - El actualizar solo funciona si en el actualizar esta el id como tipo input , para que no se viera lo puse tipo label pero si esta oculto no funciona , tambien            me toco redireccionarlo a otra pagina porque no sabia como abrirlo sobre cencima del index principal 
          - El estado no tenia conocimiento de como hacerlo y la verdad me parece algo super genial y me encantaria que si quedo seleccionado me explicaran a mas
          detalle como hacer y mejorar cada una de las cosas que no pude, muchas gracias y feliz noche
          
