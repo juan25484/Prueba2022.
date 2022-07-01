@@ -37,7 +37,7 @@ $result = mysqli_query($conexion, $sql);
 <body>
 
     <div class="container">
-        <header>Editrar rol
+        <header>Editar rol
             <hr>
         </header>
         <form action="procesar_prueba.php" method="post" class="container__form">
